@@ -121,3 +121,17 @@ function recargo_tarjetas (m_inicial,m_final){
 }
 
 console.log(recargo_tarjetas((20),(30)));
+
+// EJERCICIO 10
+
+function fototienda(num_fotos){
+
+    let cantidad = num_fotos*1500;
+    let precio_fotos = cantidad*0.16;
+    let precio_final_fotos = cantidad + precio_fotos;
+
+    return `Monto a pagar por el rollo de foto: ${precio_final_fotos}`;
+
+}
+
+console.log(fototienda(10));
