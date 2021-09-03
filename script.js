@@ -46,6 +46,26 @@ function banco (saldo_inicial){
 }
 console.log(banco(50000));
 
+//EJERCICIO 5
+
+function descuento_empresa(sueldo_base){
+
+    let l_politica = sueldo_base*0.01;
+    let s_social = sueldo_base*0.04;
+    let s_forzoso = sueldo_base*0.005;
+    let c_ahorro = sueldo_base*0.05;
+
+    monto_final = sueldo_base - l_politica - s_social - s_forzoso - c_ahorro;
+
+    return `Monto descontado de ley de politica publica: ${l_politica}
+    \nMonto descontado seguridad social: ${s_social}
+    \nMonto descontado seguro forzoso: ${s_forzoso}
+    \nMonto descontado caja de ahorro: ${c_ahorro}
+    \nMonto final pagado a trabajador: ${monto_final} `;
+}
+
+console.log(descuento_empresa(500000));
+
 
 
 
