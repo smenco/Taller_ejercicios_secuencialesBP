@@ -153,4 +153,17 @@ function hospital(pre_anual){
 console.log(hospital(600000));
 
 
+//EJERCICIO 12
+
+function video_tienda(peliculas_alquiladas,dias_alquiler){
+
+    let monto_alquiler = peliculas_alquiladas*dias_alquiler*1500
+
+    return `Monto final por el alquiler es: ${monto_alquiler}`;
+
+}
+
+console.log(video_tienda((3),(4)));
+
+
 
