@@ -109,3 +109,15 @@ function caja_ahorro (horas){
 }
 
 console.log(caja_ahorro(2));
+
+// EJERCICIO 9
+
+function recargo_tarjetas (m_inicial,m_final){
+
+    let costo_llamada = (m_final-m_inicial) / 0.2;
+
+    return `El costo de llamada es: ${costo_llamada}`;
+
+}
+
+console.log(recargo_tarjetas((20),(30)));
