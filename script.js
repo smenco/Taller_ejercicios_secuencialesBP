@@ -95,3 +95,17 @@ function bono_antiguedad(años){
 }
 
 console.log(bono_antiguedad(5));
+
+// EJERCICIO 8
+
+function caja_ahorro (horas){
+
+    let monto_descuento = (horas*20000)*0.05;
+    let monto_final = (horas*20000)-monto_descuento;
+
+    return `Monto de descuento: ${monto_descuento}
+    \nMonto total para el profesor: ${monto_final} `;
+
+}
+
+console.log(caja_ahorro(2));
