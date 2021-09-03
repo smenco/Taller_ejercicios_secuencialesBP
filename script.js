@@ -11,3 +11,17 @@ function calcular_masa (presion,volumen,temperatura){
 
 console.log(calcular_masa((4),(4),(10)));
 
+//EJERCICIO 2
+
+function numero_pulsasiones (edad){
+
+    let pulsasiones = (200 - edad) / 10;
+    return `El numero de pulsasiones es: ${pulsasiones}`;
+
+
+}
+
+console.log(numero_pulsasiones(20));
+
+
+
