@@ -23,5 +23,20 @@ function numero_pulsasiones (edad){
 
 console.log(numero_pulsasiones(20));
 
+//EJERCICIO 3
+
+function inversion_empresa (persona1,persona2,persona3){
+
+    let total = (persona1 + persona2 + persona3);
+
+    return `Porcentaje persona 1: ${(persona1/total)*100}
+    \nPorcentaje persona 2: ${(persona2/total)*100}
+    \nPorcentaje persona 3: ${(persona3/total)*100} `;
+}
+
+console.log(inversion_empresa((30),(20),(30)));
+
+
+
 
 
