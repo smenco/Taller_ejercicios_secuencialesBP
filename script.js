@@ -68,5 +68,19 @@ console.log(descuento_empresa(500000));
 
 
 
+// EJERCICIO 6
 
+function aviso_periodico(num_palabras,tm_cm,num_col){
+
+    let palabras = num_palabras*20000;
+    let centimetros = tm_cm*15000;
+    let colores = num_col*25000;
+
+    let precio_final = palabras + centimetros + colores;
+
+    return `El precio final del aviso clasificado es: ${precio_final}`;
+
+}
+
+console.log(aviso_periodico((300),(50),(15)));
 
