@@ -135,3 +135,22 @@ function fototienda(num_fotos){
 }
 
 console.log(fototienda(10));
+
+// EJERCICIO 11
+
+function hospital(pre_anual){
+
+    let pre_gineco = pre_anual*0.40;
+    let pre_traum = pre_anual*0.30;
+    let pre_pediat = pre_anual*0.30;
+
+    return `Cantidad de dinero para ginecologia: ${pre_gineco}
+    \nCantidad de dinero para traumatologia: ${pre_traum}
+    \nCantidad de dinero para pediatria: ${pre_pediat} `;
+
+}
+
+console.log(hospital(600000));
+
+
+
