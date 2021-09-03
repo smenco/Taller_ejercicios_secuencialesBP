@@ -84,3 +84,14 @@ function aviso_periodico(num_palabras,tm_cm,num_col){
 
 console.log(aviso_periodico((300),(50),(15)));
 
+//EJERCICIO 7
+
+function bono_antiguedad(años){
+
+    let bono_final =  (120000 * años) - 20000
+
+    return `El monto del bono de antiguedad es: ${bono_final}`;
+
+}
+
+console.log(bono_antiguedad(5));
