@@ -36,6 +36,16 @@ function inversion_empresa (persona1,persona2,persona3){
 
 console.log(inversion_empresa((30),(20),(30)));
 
+//EJERCICIO 4
+
+function banco (saldo_inicial){
+
+    let monto = (0.015*saldo_inicial);
+    return `Su saldo final es: ${saldo_inicial+monto}`;
+
+}
+console.log(banco(50000));
+
 
 
 
