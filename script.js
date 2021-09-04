@@ -191,3 +191,21 @@ function hotel (dias_reserva){
 
 console.log(hotel(3));
 
+// EJERCICIO 15
+
+function banco_pueblo(monto_prestamo) {
+
+    let valor_prestamo = monto_prestamo*0.24;
+    let valor_final_prestamo = monto_prestamo + valor_prestamo;
+    let cuotas_especiales = (valor_final_prestamo / 2) /4;
+    let cuotas_ordinarias = (valor_final_prestamo / 2) /20;
+
+    return `Monto total a pagar por el prestamo es: ${valor_final_prestamo}
+    \nMonto de las cuotas especiales es: ${cuotas_especiales}
+    \nMonto de las cuotas ordinarias es: ${cuotas_ordinarias} `;
+
+
+}
+
+console.log(banco_pueblo(200000));
+
