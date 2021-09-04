@@ -179,4 +179,15 @@ function agencia_viajes(numero_personas){
 
 console.log(agencia_viajes(3));
 
+// EJERCICIO 14
+
+function hotel (dias_reserva){
+
+    let valor_habitacion = (200000 * dias_reserva) - 100000
+
+    return `El valor total de la habitacion es: ${valor_habitacion}`;
+
+}
+
+console.log(hotel(3));
 
