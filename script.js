@@ -209,3 +209,21 @@ function banco_pueblo(monto_prestamo) {
 
 console.log(banco_pueblo(200000));
 
+// PARTE 1 TALLER
+// EJERCICIO 1
+
+function ejercicio_1(){
+
+    //PASO 1
+ p_1 = ((5+2-5))**2;
+    //PASO 2
+ p_2 = 5+(8/2)-30;
+    //PASO 3
+ p_3 = (2*5)-3;
+    //RESULTADO
+ y = (p_1*p_2) / p_3
+
+ return `Valor de Y ejercicio 1: ${y}`;
+}
+
+console.log(ejercicio_1());
