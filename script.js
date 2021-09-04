@@ -209,9 +209,13 @@ function banco_pueblo(monto_prestamo) {
 
 console.log(banco_pueblo(200000));
 
+
+//--------------------------------------------------------------------
+//                             PARTE 1 TALLER
 //--------------------------------------------------------------------
 
-// PARTE 1 TALLER
+
+
 // EJERCICIO 1
 
 function ejercicio_1(){
@@ -229,6 +233,8 @@ function ejercicio_1(){
 }
 
 console.log(ejercicio_1());
+
+//--------------------------------------------------------------
 
 // EJERCICIO 2
 
@@ -258,3 +264,43 @@ return `Valor de Y ejercicio 2: ${p_final}`;
 }
 
 console.log(ejercicio_2());
+
+//-------------------------------------------------------------
+
+// EJERCICIO 3
+
+function ejercicio_3(){
+
+let z=5;
+// PASO 1
+let n_1= (8+2-4)**2;
+let n_2 = 5+8+(7/2)-30*5;
+let n_3 = (n_1 * n_2);
+let n_4 = 2*5-3;
+let n_final = n_3 / n_4;
+
+// PASO 2
+let m_1 = z**2;
+let m_final = (m_1*3)+n_final; 
+
+// PASO 3
+let p_1 = (z+2-n_final)**2;
+// PASO 4
+let p_2 = m_final+(8/2)-30;
+// PASO 5
+let p_3 = (2*5)-3;
+//PASO 6
+let p_4 = (p_1*p_2);
+//PASO 7
+let p_5 = (p_4 / p_3)**5;
+//PASO 8
+let p_6 = (15*3)-(9/3);
+//PASO FINAL
+let p_final = p_5 + p_6;
+
+
+return `Valor de Y ejercicio 3: ${p_final}`;
+ 
+}
+
+console.log(ejercicio_3());
