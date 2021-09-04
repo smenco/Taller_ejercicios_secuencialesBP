@@ -165,5 +165,18 @@ function video_tienda(peliculas_alquiladas,dias_alquiler){
 
 console.log(video_tienda((3),(4)));
 
+// EJERCICIO 13
+
+function agencia_viajes(numero_personas){
+
+    let monto_personas = numero_personas*25000;
+    let monto_tour = monto_personas*0.12;
+    let monto_total_tour = monto_personas + monto_tour;
+
+    return `El monto final con IVA incluido es: ${monto_total_tour}`;
+
+}
+
+console.log(agencia_viajes(3));
 
 
